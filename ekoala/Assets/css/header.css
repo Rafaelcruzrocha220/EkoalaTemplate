@@ -1,0 +1,135 @@
+/* primary color: #ffb60b */
+*{
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+h2,
+h1,
+p,
+span,
+.email_contact
+{
+    cursor: context-menu !important;
+}
+
+a,
+a:hover{
+    text-decoration: none !important;
+}
+
+body{
+    min-width: 320px;
+}
+
+/* bug row bootstrap */
+.row{
+    margin: 0px !important;
+}
+
+/* HEADER ROW/GRID */
+.row_menus{
+    height: 20vh;
+}
+
+.header__top{
+    background-color: #ffb60b;
+    position: relative;
+    height: 5vh;
+}
+
+.header__conteiner,
+.mail_section,
+.midias_section,
+#top_header{
+    height: 100%;
+}
+
+.wrapper_mail,
+.wrapper_midias{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ICONS TOP */
+.wrapper_midias{
+    right: 0;
+}
+
+.fa-instagram,
+.fa-facebook-square,
+.fa-envelope{
+    font-size: 1rem;
+}
+
+.email_contact,
+.partition{
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    display: inline-block;
+    transform: translateY(-15%);
+}
+
+.social_link{
+    color: black;
+}
+
+.social_link:hover{
+    transition: 0.2s;
+    color: white;
+}
+
+
+/* LOGO */
+.img_logo{
+    width: 200px;
+}
+
+@media (max-width: 991px){
+    .navbar-brand{
+        display: contents !important;
+    }
+
+    .img_logo{
+        width: 45% !important;
+    }
+}
+
+
+
+/* NAV */
+@media (max-width: 991px){
+    #menu-menu-topo li:last-child a{
+        background-color: transparent !important;
+        border-radius: 0 !important;
+        color: rgba(0, 0, 0, 0.5) !important;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+
+    .nav-item:not(:last-child){
+        border-bottom: solid 1px #f0f0f0;
+    }
+    
+}
+
+/* BLOG NAV */
+#menu-menu-topo li:last-child a{ 
+    background-color: #ffb60b;
+    border-radius: 20px;
+    padding: 5px 25px;
+    color: white;
+}
+
+#menu-menu-topo li:last-child a:hover{
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.75);
+    transform: scale(0.97);
+}
+
+

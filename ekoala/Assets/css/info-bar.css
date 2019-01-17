@@ -1,0 +1,34 @@
+/* primary color: #ffb60b */
+
+#bar_info{
+    width: 100%;
+    background-color: black;
+}
+
+.item-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+.logo_info i{
+    font-size: 1.7rem;
+    color: #ffb60b;
+}
+
+.number_info{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #ffb60b;
+}
+
+.info_divisor{
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 1px solid white; 
+}
+
+.description_info{
+    margin-top: 3px;
+}

@@ -1,0 +1,38 @@
+#about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content-sobre,
+.subtitulo,
+.titulo{
+    text-align: center;
+}
+
+.subtitulo{
+    color: #ffb60b;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin: 0px;
+}
+
+.titulo{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+@media (min-width:991px){
+    .content-sobre{
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 0px 100px;
+    }
+}
+
+@media (max-width:990px){
+    .content-sobre{
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+}
